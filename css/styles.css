@@ -1,0 +1,67 @@
+/* Переменные */
+:root {
+  --color-brand: #819b57;
+  --color-brand-dark: #465929;
+  --color-light: #faf4ea;
+  --color-dark: #31261a;
+}
+/* Global styles */
+body {
+  color: var(--color-dark);
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Button styles */
+.button {
+  color: var(--color-light);
+  background-color: var(--color-brand);
+  border: 2px solid var(--color-brand);
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--color-brand-dark);
+  border-color: var(--color-brand-dark);
+  cursor: pointer;
+}
+
+/* Link styles */
+.link {
+  color: var(--color-light);
+}
+
+.link:hover {
+  color: var(--color-brand);
+  cursor: pointer;
+}
+
+/* Hero title styles */
+.hero-title {
+  color: var(--color-light);
+  /*span {
+    color: var(--color-brand);
+  }*/
+}
+
+.hero-title .accent {
+  color: var(--color-brand);
+}
+
+/* Advantages list styles */
+.advantages-list {
+  background-color: var(--color-brand);
+  color: var(--color-light);
+}
+
+.section-title {
+  font-size: 64px;
+  text-transform: uppercase;
+}
+
+.section-title .accent {
+  color: var(--color-brand);
+}
