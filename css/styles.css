@@ -36,6 +36,10 @@
   --color-dark: #31261a;
 }
 /* Global styles */
+* {
+  box-sizing: border-box; /* Устанавливает модель коробки для всех элементов */
+}
+
 body {
   color: var(--color-dark); /* Задает цвет текста для всего тела документа */
   font-family: 'Poppins', sans-serif;
@@ -143,10 +147,3 @@ ul {
   color: var(--color-dark);
   font-size: 14px;
 }
-/* .section-title .accent {
-  color: var(--color-brand);
-} */
-/* 
-.traditional-text .brand {
-  color: var(--color-brand);
-} */

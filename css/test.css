@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  padding: 16px 42px;
+  border: 2px solid wheat;
+  border-radius: 5px;
+  margin: 0 auto;
+}
